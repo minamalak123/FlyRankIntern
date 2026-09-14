@@ -1,0 +1,55 @@
+{
+  "base_rate_went_dark": 0.608943,
+  "test_rows": 55887,
+  "train_rows": 105652,
+  "train_clients": 33,
+  "test_clients": 9,
+  "client_overlap": 0,
+  "results": [
+    {
+      "Model": "Simple Baseline",
+      "Average Precision": 0.4816908938167109,
+      "ROC AUC": 0.21027344058282696,
+      "Precision@10": 0.1,
+      "Precision@50": 0.02,
+      "Precision@100": 0.01
+    },
+    {
+      "Model": "Logistic Regression",
+      "Average Precision": 0.874937,
+      "ROC AUC": 0.841181,
+      "Precision@10": 1.0,
+      "Precision@50": 0.92,
+      "Precision@100": 0.93
+    },
+    {
+      "Model": "Decision Tree",
+      "Average Precision": 0.874933,
+      "ROC AUC": 0.841293,
+      "Precision@10": 1.0,
+      "Precision@50": 0.96,
+      "Precision@100": 0.96
+    },
+    {
+      "Model": "Random Forest",
+      "Average Precision": 0.880301,
+      "ROC AUC": 0.844464,
+      "Precision@10": 1.0,
+      "Precision@50": 0.98,
+      "Precision@100": 0.96
+    }
+  ],
+  "top_k_went_dark_rate": {
+    "10": 1.0,
+    "50": 0.98,
+    "100": 0.96,
+    "500": 0.952
+  },
+  "permutation_importance": {
+    "impressions_feb": 0.079231,
+    "clicks_feb": 0.018777,
+    "ctr_feb": 0.008149,
+    "avg_position_feb": 0.005228,
+    "engagement_rate_feb": 0.000331
+  }
+}
